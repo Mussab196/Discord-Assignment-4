@@ -1,0 +1,106 @@
+/* navbar css */
+nav li a:hover{
+    text-decoration: underline rgb(0, 0, 0);
+}
+nav button:hover{
+    text-decoration: underline rgb(0, 0, 0);
+}
+nav{
+    background-color: #404EED;
+}
+/* Media Query */
+@media screen and (min-width: 1075px) {
+#herosection{
+    /* padding-top: 20px; */
+    background-image:url(./Images/shoes.svg),url(./Images/juice.svg), url(./Images/cloud.svg);
+    background-color: #404EED;
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    /* background-position:-375px 271px,1026px 265px,-678px 0px; */
+    background-position-x: -375px,1026px;
+    background-position-y: bottom;
+    }
+}
+@media screen and (max-width:1075px){
+#herosection {
+    background-image:url(./Images/juice.svg), url(./Images/cloud.svg);
+    background-color: #404EED;
+    background-position: 447px 261px,-726px;
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:1075px) or (min-width:600px){
+    #top-left {
+        position: relative;
+    top: -40px;
+    left: -311px;
+    font-size: 15pt;
+    line-height: 1;
+    margin: 0px 300px;
+    }
+}
+@media screen and (max-width:600px){
+    #top-left {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: start;
+    background-image: url(./Images/shoes.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 140px,0px;
+    background-position-y: 363px;
+    margin: 0px;
+
+    }
+}
+.imagin{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Road Rage', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45pt;
+}
+.center-button{
+    margin: 0px 323px ;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    text-align: start;
+}
+.section5{
+    width: 100vw;
+    display: flex;
+    text-align: center;
+}
+.sec-6-img{
+    font-size: 30pt;
+}
+/* Last section */
+.L-section{
+    width: 100vw;
+    margin-top: 78px;
+    padding: 71px 0px 40px;
+}
+.new{
+    width: 100%;
+    height: 3px;
+    margin-bottom: 32px;
+    background-color: #5865F2;
+}
+ul{
+    list-style-type: none;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.signup{
+    background-color: #5865F2;
+    color: aliceblue;
+}
